@@ -69,6 +69,25 @@
           "_beagleAction_" : "beagle:popView"
         }
       ]
+    },
+    {
+      "_beagleComponent_": "beagle:button",
+      "text": "Tela nativa",
+      "style": {
+        "margin": {
+          "top": {
+            "value": 40,
+            "type": "REAL"
+          }
+        }
+      },
+      "onPress": [
+      {
+          "_beagleAction_" : "beagle:openNativeRoute",
+          "route" : "my-native",
+          "shouldResetApplication" : false
+        }
+      ]
     }
   ]
 }
