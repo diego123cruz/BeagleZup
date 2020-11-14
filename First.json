@@ -76,7 +76,7 @@
     },
     {
       "_beagleComponent_": "beagle:button",
-      "text": "Custom Alert",
+      "text": "Custom Action",
       "style": {
         "margin": {
           "top": {
@@ -88,7 +88,8 @@
       "onPress": [
       {
          "_beagleAction_": "custom:customAction",
-          "msg": "Eu sou um Toast."
+          "msg": "Eu sou um Toast.",
+          "title": "Eu sou o titulo :)"
         }
       ]
     }
