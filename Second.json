@@ -66,11 +66,7 @@
       },
       "onPress": [
       {
-          "_beagleAction_": "beagle:pushView",
-          "route": {
-            "url": "https://raw.githubusercontent.com/diego123cruz/BeagleZup/main/First.json",
-            "shouldPrefetch": false
-          }
+          "_beagleAction_" : "beagle:popView"
         }
       ]
     }
