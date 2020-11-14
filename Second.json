@@ -1,0 +1,78 @@
+{
+  "_beagleComponent_": "beagle:container",
+  "style": {
+    "flex": {
+      "flexDirection": "COLUMN",
+      "alignItems": "CENTER",
+      "justifyContent": "CENTER"
+    },
+    "size": {
+      "height": {
+        "value": 100,
+        "type": "PERCENT"
+      }
+    }
+  },
+  "children": [
+    {
+      "_beagleComponent_": "beagle:image",
+      "path": {
+        "_beagleImagePath_": "remote",
+        "url": "https://i.ibb.co/rvRN9kv/logo.png"
+      },
+      "style": {
+        "size": {
+          "height": {
+            "value": 225,
+            "type": "REAL"
+          }
+        }
+      }
+    },
+    {
+      "_beagleComponent_": "beagle:text",
+      "text": "Welcome to the Beagle playground!",
+      "style": {
+        "margin": {
+          "top": {
+            "value": 40,
+            "type": "REAL"
+          }
+        }
+      }
+    },
+    {
+      "_beagleComponent_": "beagle:text",
+      "text": "Use the panel on the left to start coding!",
+      "style": {
+        "margin": {
+          "top": {
+            "value": 5,
+            "type": "REAL"
+          }
+        }
+      }
+    },
+    {
+      "_beagleComponent_": "beagle:button",
+      "text": "Access the fast guide",
+      "style": {
+        "margin": {
+          "top": {
+            "value": 40,
+            "type": "REAL"
+          }
+        }
+      },
+      "onPress": [
+      {
+          "_beagleAction_": "beagle:pushView",
+          "route": {
+            "url": "/docs.json",
+            "shouldPrefetch": false
+          }
+        }
+      ]
+    }
+  ]
+}
