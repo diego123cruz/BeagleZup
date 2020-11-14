@@ -55,7 +55,7 @@
     },
     {
       "_beagleComponent_": "beagle:button",
-      "text": "Access the fast guide",
+      "text": "Go to First",
       "style": {
         "margin": {
           "top": {
@@ -68,7 +68,7 @@
       {
           "_beagleAction_": "beagle:pushView",
           "route": {
-            "url": "/docs.json",
+            "url": "https://raw.githubusercontent.com/diego123cruz/BeagleZup/main/First.json",
             "shouldPrefetch": false
           }
         }
