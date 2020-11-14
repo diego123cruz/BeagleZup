@@ -73,6 +73,24 @@
           }
         }
       ]
+    },
+    {
+      "_beagleComponent_": "beagle:button",
+      "text": "Custom Alert",
+      "style": {
+        "margin": {
+          "top": {
+            "value": 40,
+            "type": "REAL"
+          }
+        }
+      },
+      "onPress": [
+      {
+         "_beagleAction_": "custom:customAction",
+          "msg": "Eu sou um Toast."
+        }
+      ]
     }
   ]
 }
