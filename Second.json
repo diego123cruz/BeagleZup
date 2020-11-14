@@ -18,7 +18,7 @@
       "_beagleComponent_": "beagle:image",
       "path": {
         "_beagleImagePath_": "remote",
-        "url": "https://i.ibb.co/rvRN9kv/logo.png"
+        "url": "https://i.pinimg.com/originals/b7/45/c1/b745c139d640faef008b412befdc37fa.png"
       },
       "style": {
         "size": {
@@ -31,7 +31,7 @@
     },
     {
       "_beagleComponent_": "beagle:text",
-      "text": "Welcome to the Beagle playground!",
+      "text": "Welcome to second screen",
       "style": {
         "margin": {
           "top": {
@@ -43,7 +43,7 @@
     },
     {
       "_beagleComponent_": "beagle:text",
-      "text": "Use the panel on the left to start coding!",
+      "text": "Gostou? 😀",
       "style": {
         "margin": {
           "top": {
@@ -55,7 +55,7 @@
     },
     {
       "_beagleComponent_": "beagle:button",
-      "text": "Go to First",
+      "text": "Go to First 😉",
       "style": {
         "margin": {
           "top": {
