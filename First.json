@@ -68,7 +68,7 @@
       {
           "_beagleAction_": "beagle:pushView",
           "route": {
-            "url": "/docs.json",
+            "url": "https://raw.githubusercontent.com/diego123cruz/BeagleZup/main/Second.json",
             "shouldPrefetch": false
           }
         }
