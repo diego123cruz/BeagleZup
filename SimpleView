@@ -1,0 +1,79 @@
+{
+  "_beagleComponent_": "beagle:container",
+  "style": {
+    "flex": {
+      "flexDirection": "ROW",
+      "alignItems": "CENTER",
+      "justifyContent": "CENTER"
+    },
+    "size": {
+      "height": {
+        "value": 100,
+        "type": "PERCENT"
+      }
+    }
+  },
+  "children": [
+    {
+      "_beagleComponent_": "beagle:image",
+      "path": {
+        "_beagleImagePath_": "remote",
+        "url": "https://purepng.com/public/uploads/large/purepng.com-mariomariofictional-charactervideo-gamefranchisenintendodesigner-1701528634653vywuz.png"
+      },
+      "style": {
+        "size": {
+          "height": {
+            "value": 80,
+            "type": "REAL"
+          }
+        }
+      }
+    },
+    {
+  "_beagleComponent_": "beagle:container",
+  "style": {
+    "flex": {
+      "flexDirection": "COLLUM",
+      "alignItems": "LEFT",
+      "justifyContent": "CENTER"
+    },
+    "size": {
+      "height": {
+        "value": 100,
+        "type": "PERCENT"
+      }
+    }
+  },
+  "children": [
+    {
+      "_beagleComponent_": "beagle:text",
+      "text": "Mario",
+      "style": {
+        "margin": {
+          "left": {
+            "value": 40,
+            "type": "REAL"
+          }
+        }
+      }
+    },
+    {
+      "_beagleComponent_": "beagle:text",
+      "text": "Podemos consertar qualquer coisa se houver espaguete envolvido!",
+      "style": {
+        "margin": {
+          "top": {
+            "value": 5,
+            "type": "REAL"
+          },
+          "left": {
+            "value": 40,
+            "type": "REAL"
+          }
+        }
+      }
+    }
+    ]
+    }
+  ]
+}
